@@ -1,0 +1,50 @@
+
+body{
+background-color: 192,192,192;
+
+}
+#pic {
+  float: left;
+  margin-left: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+main{
+  float: right;
+  margin-right: 70px;
+}
+
+p{
+  font-style: oblique;
+  color: dark-gray;
+  font-weight: bold;
+
+}
+p:hover{
+  color:rgb(26, 224, 50);
+}
+
+p::first-letter{
+  font-size: 20px;
+  font-weight: bold;
+  color:rgb(15, 24, 126);
+}
+
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(15, 24, 126);
+  text-shadow: 2px 2px 5px gray;
+}
+
+li:nth-child(even){
+  color: #ff0000;
+  font-style: oblique;
+}
+
+li:nth-child(odd){
+  color:rgb(20, 138, 166);
+
+}

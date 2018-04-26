@@ -1,0 +1,43 @@
+body{
+  margin-left: 120px;
+  margin-right: 120px;
+  background-color: #DCDCDC;
+  text-align: center;
+}
+
+h1{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 35px;
+  font-style: oblique;
+  font-weight: bold;
+}
+h4+p{
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+p::first-letter{
+  font-size: 20px;
+  font-family: cursive;
+  font-style: oblique;
+}
+
+h4{
+  color: rgb(160, 43, 43);
+  font-size: 20px;
+}
+
+h4:nth-child(odd){
+  font-size: 30px !important;
+
+}
+
+.w3-container:hover{
+  color: rgb(26, 32, 150);
+  font-weight: bold;
+}
+
+img{
+  height: 300px;
+  width: 350px;
+}
