@@ -1,0 +1,146 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-image: url("../img/airline.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'Archivo Narrow';
+}
+
+header{
+  background-color: #193A55;
+  height: 82px;
+  border-bottom: solid 1px white;
+}
+
+.logo{
+  float: left;
+  margin-left: 35px;
+}
+
+.tm-nav{
+  display: inline-block;
+  float: right;
+  padding-top: 37px;
+  padding-right: 20px;
+}
+
+.tm-icon li{
+  padding: 15px;
+}
+
+li a{
+  padding:3px;
+}
+
+
+li{
+  display: inline;
+  padding: 5px;
+}
+
+
+/*start styling for main section*/
+
+.tm-main{
+  background-color: #193A55;
+  position: relative;
+  top: 4em;
+  left:7.5em;
+  width: 23em;
+  height: 20em;
+  border-radius: 3px;
+}
+
+main{
+  position: absolute;
+  padding-top: 13px;
+}
+
+.tm-choice li{
+  padding: 38px;
+
+}
+
+.tm-choice li img{
+  width:33px;
+  margin-top: 10px;
+}
+
+div .tm-choice{
+  background-color: rgb(63,166,111);
+  border-radius: 4px;
+}
+
+.tm-main{
+  position: relative;
+}
+
+.tm-input{
+  padding-top: 2em;
+  margin-left: 29px;
+}
+
+.tm-input input{
+  background-color: #193A55;
+  text-decoration: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 3px;
+}
+
+.tm-date{
+  margin-left: 29px;
+  padding-top: 1em;
+  border-radius: 3px;
+}
+
+.tm-place{
+  color: white;
+}
+
+.tm-date input{
+  background-color: #193A55;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.tm-box option{
+
+}
+
+.tm-pass{
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+.tm-pass .tm-radio{
+  padding-top: 1.5em;
+  display: inline-block;
+}
+
+.tm-pass label{
+  margin-left: 8px;
+  text-decoration: none;
+}
+
+.tm-pass input{
+  margin-left: 25px;
+}
+
+button{
+  margin-left: 25px;
+  margin-top:35px;
+  padding: 10px 109px 10px 109px;
+  background-color: rgb(32, 88, 243);
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 2px;
+}
