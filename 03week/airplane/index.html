@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>UX Atlantic</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Archivo Narrow' rel='stylesheet'>
+  <!--calling for google font-->
+
+</head>
+  <body>
+    <header><!--this will contain logo & nav links-->
+      <!--logo will go here will give it a class to float left/wrap in a div-->
+      <div class="logo">
+        <img src="./img/logo.png">
+      </div>
+      <nav class="tm-nav"><!--using ul/li for links in my header-->
+        <ul class="tm-icon">
+          <li><a href="#"><img src="./img/home-icon.png">Home</a></li>
+          <li><a href="#"><img src="./img/deal-icon.png">Travel Deals</a></li>
+          <li><a href="#"><img src="./img/schedule-icon.png">Flight Schedule</a></li>
+          <li><a href="#"><img src="./img/login-icon.png">Register/Login</a></li>
+        </ul>
+      </nav>
+   </header>
+
+<!--code for main section-->
+
+  <main>
+    <div class="tm-main"><!--background for my entire box-->
+  <section class="tm-choice"><!--styling for top border-->
+    <ul>
+      <li><a href="#"><img src="./img/plane-icon.png"/></li>
+      <li><a href="#"><img src="./img/hotel-icon.png"/></li>
+      <li><a href="#"><img src="./img/car-icon.png"/></li>
+      </ul>
+  </section>
+
+<section class="tm-input"><!--depart/arrive info-->
+  <form action= "/action_page.php" method="get">
+    <input type="text" name="depart" placeholder="Depart"/>
+    <input type="text" name="arrive" placeholder="Arrive"/>
+  </form>
+</section>
+
+  <section class="tm-date"><!--date-->
+    <form action="" method="get">
+      <input class="tm-place" type="text" name="date" placeholder="mm/dd/yyyy"/>
+      <input class="tm-place" type="text" name="date" placeholder="mm/dd/yyyy"/>
+    </form>
+  </section>
+
+<section class="tm-pass"><!--# of passengers-->
+  <label>Passengers</label>
+    <select class="tm-box">
+      <option value="one">1</option>
+      <option value="two">2</option>
+      <option value="three">3</option>
+  </select>
+    <form class="tm-radio" action="" method="get">
+      <input type="radio" name="check" id="check" value="uncheck"/>
+      <label class="tm-check">Return</label>
+      <input type="radio" name="check" id="check" value="uncheck"/>
+      <label class="tm-check">One Way</label>
+  </form>
+</section>
+
+  <button type="button">Search Flights</button>
+
+      </div>
+    </main>
+  </body>
+</html>
