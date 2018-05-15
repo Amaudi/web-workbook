@@ -1,1 +1,324 @@
+body{
+  border: black 3px solid;
+  padding: 20px;
+  background-color: gray;
 
+}
+
+/*header*/
+h1{
+  font-size: 50px;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/*grid start*/
+
+.entire{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-auto-rows: 200px;
+  grid-gap:15px;
+
+}
+
+/*box 1 start*/
+
+.one{
+  padding:10px;
+  border:black 1px solid;
+  grid-column: 1 / 3;
+  display: flex;
+}
+
+.one > img{
+  height:150px;
+  width:200px;
+}
+
+/*.sideone{
+  align-self: flex-end;
+}*/
+
+/*
+.underone{
+  background-color: rgb(255,98,70);
+  border: 1px black solid;
+  width: 150px;
+  height:16px;
+}
+*/
+
+/*box 1 end*/
+
+/*box 2 start*/
+
+.two{
+  padding:10px;
+  border:black 1px solid;
+  grid-column: 3 / 5;
+  display: flex;
+
+}
+
+.two > img{
+  height:150px;
+  width:200px;
+}
+
+/*box 2 end*/
+
+/*box 3 start*/
+
+.three{
+  padding:10px;
+  border:black 1px solid;
+  grid-column: 1 / 3;
+  grid-row: 2 / 4;
+  display: flex;
+  flex-direction: column;
+}
+
+.three > img{
+  height:200px;
+  width:100%;
+}
+
+.underthree{
+  background-color: rgb(255,98,70);
+  border: 1px black solid;
+  width: 80px;
+  height:60px;
+  align-self: flex-end;
+}
+
+/*box 3 end*/
+
+/*box 4 start*/
+.four{
+  padding:10px;
+  border:black 1px solid;
+  grid-column: 3/4;
+  display: flex;
+  flex-direction: column;
+}
+
+.four > img{
+  height:90px;
+  width:100%;
+}
+
+.underfour{
+  background-color: rgb(255,98,70);
+  border: 1px black solid;
+  width: 40px;
+  height:16px;
+  align-self: flex-end;
+}
+
+
+/*box 4 end*/
+
+/*box 5 start*/
+
+.five{
+  padding:10px;
+  border:black 1px solid;
+  grid-column: 4/5;
+  display: flex;
+  flex-direction: column;
+}
+
+.five > img{
+  height:90px;
+  width:100%;
+}
+
+.underfive{
+  background-color: rgb(255,98,70);
+  border: 1px black solid;
+  width: 40px;
+  height:16px;
+  align-self: flex-end;
+}
+
+/*box 5 end*/
+
+/*box 6 start*/
+
+.six{
+  padding:10px;
+  border:black 1px solid;
+  grid-column: 3/5;
+  display: flex;
+  flex-direction: column;
+}
+
+.six > img{
+  height:80px;
+  width:100%;
+}
+
+.undersix{
+  background-color: rgb(255,98,70);
+  border: 1px black solid;
+  width: 70px;
+  height:16px;
+  align-self: flex-end;
+}
+
+/*box 6 end*/
+
+/*box 7 start*/
+
+.seven{
+  padding:10px;
+  border:black 1px solid;
+  grid-column: 1/2;
+  display: flex;
+  flex-direction: column;
+}
+
+.seven > img{
+  height:80px;
+  width:100%;
+}
+
+.underseven{
+  background-color: rgb(255,98,70);
+  border: 1px black solid;
+  width: 70px;
+  height:16px;
+  align-self: flex-end;
+}
+
+/*box 7 end*/
+
+/*box 8 start*/
+
+.eight{
+  padding:10px;
+  border:black 1px solid;
+  grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+}
+
+.eight > img{
+  height:80px;
+  width:100%;
+}
+
+.undereight{
+  background-color: rgb(255,98,70);
+  border: 1px black solid;
+  width: 70px;
+  height:16px;
+  align-self: flex-end;
+}
+
+/*box 8 end*/
+
+/*box 9 start*/
+
+.nine{
+  padding:10px;
+  border:black 1px solid;
+  grid-column: 3/4;
+  display: flex;
+  flex-direction: column;
+}
+
+.nine > img{
+  height:80px;
+  width:100%;
+}
+
+.undernine{
+  background-color: rgb(255,98,70);
+  border: 1px black solid;
+  width: 70px;
+  height:16px;
+  align-self: flex-end;
+}
+
+/*box 9 end*/
+
+/*box 10 start*/
+
+.ten{
+  padding:10px;
+  border:black 1px solid;
+  grid-column: 4/5;
+  display:flex;
+  flex-direction: column;
+}
+
+.ten > img{
+  height:80px;
+  width:100%;
+}
+
+.underten{
+  background-color: rgb(255,98,70);
+  border: 1px black solid;
+  width: 70px;
+  height:16px;
+  align-self: flex-end;
+}
+
+/*box 10 end*/
+
+@media (max-width: 768px) {
+
+  .entire{
+    grid-template-columns: repeat(5,1fr);
+    grid-auto-rows: auto;
+  }
+
+  .one{
+    display:none;
+  }
+
+  .two{
+    display: none;
+  }
+
+  .three{
+    grid-column: 1/6;
+    grid-row: 1/3;
+  }
+
+  .four{
+    display: none;
+  }
+
+  .five{
+    display:none;
+  }
+
+  .six{
+    grid-column: 1/6;
+    grid-row: 4/6;
+  }
+
+  .seven{
+    grid-row: 3/4;
+    grid-column: 1/3;
+  }
+
+  .eight{
+    grid-row: 3/4;
+    grid-column: 4/6;
+
+  }
+
+  .nine{
+    display:none;
+  }
+
+  .ten{
+    display:none;
+  }
+}
