@@ -34,8 +34,13 @@ header{
 
 li a{
   padding:3px;
+  text-decoration: none;
+  color: white;
 }
 
+li a:hover{
+  color:#048A81;
+}
 
 li{
   display: inline;
@@ -62,7 +67,6 @@ main{
 
 .tm-choice li{
   padding: 38px;
-
 }
 
 .tm-choice li img{
@@ -84,6 +88,11 @@ div .tm-choice{
   margin-left: 29px;
 }
 
+.input-a{
+  text-align: center;
+  border: white 1px solid;
+}
+
 .tm-input input{
   background-color: #193A55;
   text-decoration: none;
@@ -100,6 +109,8 @@ div .tm-choice{
 
 .tm-place{
   color: white;
+  text-align: center;
+  border: 1px white solid;
 }
 
 .tm-date input{
@@ -108,13 +119,10 @@ div .tm-choice{
   padding-bottom: 5px;
 }
 
-.tm-box option{
-
-}
-
 .tm-pass{
   margin-left: 20px;
   margin-top: 30px;
+  color: white;
 }
 
 .tm-pass .tm-radio{
