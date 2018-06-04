@@ -16,10 +16,10 @@
       </div>
       <nav class="tm-nav"><!--using ul/li for links in my header-->
         <ul class="tm-icon">
-          <li><a href="#"><img src="./img/home-icon.png">Home</a></li>
-          <li><a href="#"><img src="./img/deal-icon.png">Travel Deals</a></li>
-          <li><a href="#"><img src="./img/schedule-icon.png">Flight Schedule</a></li>
-          <li><a href="#"><img src="./img/login-icon.png">Register/Login</a></li>
+          <li><a href="#"><img class="tm-img" src="./img/home-icon.png">Home</a></li>
+          <li><a href="#"><img class="tm-img" src="./img/deal-icon.png">Travel Deals</a></li>
+          <li><a href="#"><img class="tm-img" src="./img/schedule-icon.png">Flight Schedule</a></li>
+          <li><a href="#"><img class="tm-img" src="./img/login-icon.png">Register/Login</a></li>
         </ul>
       </nav>
    </header>
@@ -30,17 +30,19 @@
     <div class="tm-main"><!--background for my entire box-->
   <section class="tm-choice"><!--styling for top border-->
     <ul>
-      <li><a href="#"><img src="./img/plane-icon.png"/></li>
-      <li><a href="#"><img src="./img/hotel-icon.png"/></li>
-      <li><a href="#"><img src="./img/car-icon.png"/></li>
+        <li><a href="#"><img src="./img/plane-icon.png"/></li>
+        <li><a href="#"><img src="./img/hotel-icon.png"/></li>
+        <li><a href="#"><img src="./img/car-icon.png"/></li>
       </ul>
   </section>
 
 <section class="tm-input"><!--depart/arrive info-->
+  <div class="tm-wrap">
   <form action= "/action_page.php" method="get">
-    <input type="text" name="depart" placeholder="Depart"/>
-    <input type="text" name="arrive" placeholder="Arrive"/>
+    <input class="input-a" type="text" name="depart" placeholder="Depart"/>
+    <input class="input-a" type="text" name="arrive" placeholder="Arrive"/>
   </form>
+  </div>
 </section>
 
   <section class="tm-date"><!--date-->
@@ -51,7 +53,7 @@
   </section>
 
 <section class="tm-pass"><!--# of passengers-->
-  <label>Passengers</label>
+  <label id="people">Passengers</label>
     <select class="tm-box">
       <option value="one">1</option>
       <option value="two">2</option>
